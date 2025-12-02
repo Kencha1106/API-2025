@@ -77,31 +77,35 @@ GoogleスプレッドシートをAPI化し、SheetDBでCRUD操作を学ぶため
 2.  **READ操作（GET）**
     *   全データを取得するGETリクエストをPostmanで送信。
     *   クエリパラメータ `limit` と `offset` を使ってページネーションの動作確認を実施
-    ![alt text](<スクリーンショット 2025-11-24 120651.png>)
+    *   <img width="1901" height="902" alt="スクリーンショット 2025-11-24 120651" src="https://github.com/user-attachments/assets/7d928f99-6295-4879-b0a0-a97f6fd9c07e" />
 
-3.  **条件検索（GET with Query）**
+        3.  **条件検索（GET with Query）**
     *   `name` が「田中」のレコードだけ取得するGETリクエストを実行
-![alt text](<スクリーンショット 2025-11-25 111018.png>)
+    *   <img width="1304" height="850" alt="スクリーンショット 2025-11-25 111018" src="https://github.com/user-attachments/assets/ec2a12b9-d1de-4e43-8147-61235f2872ad" />
 
-4.  **CREATE操作（POST）**
+  4.  **CREATE操作（POST）**
     *   新しいレコード（例：`id=101, name=田中, email=test@example.com, score=85`）を追加
-    ![alt text](<スクリーンショット 2025-11-25 112249.png>)
-
+     <img width="1351" height="843" alt="スクリーンショット 2025-11-25 112249" src="https://github.com/user-attachments/assets/9c2436a6-df22-4af8-aafd-3c1feecbc77a" />
+ 
 5.  **複数レコード追加（POST）**
     *   `data` 配列で複数レコードを一度に追加する。
-    ![alt text](<スクリーンショット 2025-12-01 093327.png>)
+    <img width="1918" height="932" alt="スクリーンショット 2025-12-01 093327" src="https://github.com/user-attachments/assets/a6d5ce31-9552-4f6b-b651-a129ac808480" />
+
 
 6.  **DELETE操作**
     *   `id=101` のレコードを削除するDELETEリクエストを送信
-    ![alt text](<スクリーンショット 2025-12-01 102341.png>)
+    <img width="1911" height="939" alt="スクリーンショット 2025-12-01 102341" src="https://github.com/user-attachments/assets/f9297e56-c943-45a2-9779-303cf5050578" />
+
 
 7.  **認証設定**
     *   SheetDBの管理画面でBasic認証を設定し、Postmanで認証付きリクエストを送信
-    ![alt text](<スクリーンショット 2025-12-01 102855.png>)
+    <img width="1914" height="935" alt="スクリーンショット 2025-12-01 102855" src="https://github.com/user-attachments/assets/41e8576c-e651-431b-ad78-0929822804f1" />
+
 
 8. **エラーハンドリング**
     *   存在しない `id` を指定してDELETEを実行し、レスポンスのエラー内容を確認
-    ![alt text](<スクリーンショット 2025-12-01 103133.png>)
+   <img width="1913" height="928" alt="スクリーンショット 2025-12-01 103133" src="https://github.com/user-attachments/assets/9228c783-a3e1-4cd2-ae05-addc5f498c01" />
+
 
 9. **PATCH操作（部分更新）** **修正課題**
     SheetDB無償API利用範囲で、適切なPATCH操作を行い、特定のデータを部分更新し、レスポンスを確認する：
@@ -113,7 +117,8 @@ GoogleスプレッドシートをAPI化し、SheetDBでCRUD操作を学ぶため
     }
     * レスポンス：　HTTPステイタスコード：　200 OK
 　　* curlコマンドでの動作確認も可能
-![alt text](<スクリーンショット 2025-12-01 103133.png>)
+    <img width="1911" height="936" alt="スクリーンショット 2025-12-02 105906" src="https://github.com/user-attachments/assets/a53b4646-7414-49b5-bf6b-1ac47dd0e9d4" />
+
 
 10. **RESTの4原則対応表**
     * 上記9の設問について、下記の4原則のどれを満たしているかを表にまとめよ：
@@ -148,4 +153,5 @@ GoogleスプレッドシートをAPI化し、SheetDBでCRUD操作を学ぶため
 *   JavaScript（axios）でSheetDB APIを呼び出す簡単なWebページを作成
 
 ***
+
 
