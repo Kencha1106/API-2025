@@ -71,7 +71,8 @@ GoogleスプレッドシートをAPI化し、SheetDBでCRUD操作を学ぶため
 
 1.  **APIエンドポイント確認**
     *   SheetDBで作成したAPIのURLを確認し、ブラウザでアクセスしてJSONレスポンスを表示
-![alt text](image.png)
+<img width="1919" height="955" alt="スクリーンショット 2025-12-01 114104" src="https://github.com/user-attachments/assets/d5749340-ae2d-463f-9c9f-e20a75cc3097" />
+
 
 2.  **READ操作（GET）**
     *   全データを取得するGETリクエストをPostmanで送信。
@@ -147,3 +148,4 @@ GoogleスプレッドシートをAPI化し、SheetDBでCRUD操作を学ぶため
 *   JavaScript（axios）でSheetDB APIを呼び出す簡単なWebページを作成
 
 ***
+
