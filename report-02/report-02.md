@@ -49,6 +49,7 @@ WebAPIのレスポンス形式としてJSONが主流になった理由を、**XM
   - ステータスコード
   - レスポンスヘッダ（`Content-Type`など）
   - レスポンスJSONのスクリーンショット
+<img width="1912" height="999" alt="image" src="https://github.com/user-attachments/assets/2c978ff4-aef8-4ac3-85c4-14c655a78bd3" />
 
 ---
 
