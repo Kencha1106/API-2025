@@ -50,7 +50,9 @@ WebAPIのレスポンス形式としてJSONが主流になった理由を、**XM
   - レスポンスヘッダ（`Content-Type`など）
   - レスポンスJSONのスクリーンショット
 ステータスコード：200 OK
-レスポンスヘッダ：Content-Type: application/json; 
+レスポンスヘッダ：Content-Type: application/json;
+<img width="1912" height="999" alt="image-1" src="https://github.com/user-attachments/assets/fd131a7d-2d42-4a10-8ea4-360cc068366b" />
+
 ---
 
 ### 問4：キャッシュ制御の仕組み
