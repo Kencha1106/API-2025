@@ -198,6 +198,7 @@ HTTPのコンテンツネゴシエーションにおいて、**Acceptヘッダ�
 ```
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
 ```
-・Acceptヘッダはクライアントが受け入れ可能なメディアタイプを宣言している。
-・q値(品質値)は優先度を指定している（1.0が最優先）。
-・例のケースにおいて、サーバは text/html と思う。application/xhtml+xml や image/webp も優先度は同じであるが、通常はHTMLが選ばれる。
+HTTPのコンテンツネゴシエーションでは、Acceptヘッダを用いてクライアントが受け取れるメディアタイプと優先度をサーバに伝える。各メディアタイプには q値（品質値） を指定でき、0〜1の範囲で「どれをどれくらい好むか」を表す。q値が省略された場合は 1.0 が既定値となり、数値が高いほど優先度が高い。
+
+例のAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8では、text/html と application/xhtml+xml は q=1.0 で最優先、次に application/xml（q=0.9）、その次に任意形式を表す */*（q=0.8）が続く。
+なので、サーバが text/html を提供可能であれば text/html が選択されると思う。この時には最も高いq値を持ち、具体的に指定されたメディアタイプになる。もし text/html が提供できない場合は、次点の application/xhtml+xml、さらに application/xml が候補になる。
