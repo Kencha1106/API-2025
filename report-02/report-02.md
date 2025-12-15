@@ -142,7 +142,10 @@ RFC3339形式の採用が良いと思う
   - それぞれのレスポンスのスクリーンショット
   - 違いの説明
 
----
+---<img width="1919" height="936" alt="image" src="https://github.com/user-attachments/assets/efca3776-af64-4a74-a529-9019a3dd8cca" />
+
+<img width="1918" height="944" alt="image" src="https://github.com/user-attachments/assets/262d312f-5288-4875-b7d1-b58bfb94c0a7" />
+
 
 ### 問9：セキュリティ対策（XSS・CSRF）
 WebAPI利用時に発生しうるXSSとCSRF攻撃について、**攻撃の仕組みと被害例を説明し、それぞれの対策を3つずつ挙げてください**。また、**Same-Origin PolicyとCORSの関係を簡潔にまとめてください**。
