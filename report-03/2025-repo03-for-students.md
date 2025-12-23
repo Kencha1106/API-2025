@@ -51,7 +51,7 @@
 | Streamlit       | [✓] |        |
 | SQLite（DB 永続化）  | [ ] |        |
 | SQLAlchemy（ORM） | [ ] |        |
-| そのほか            | [ ] |        |
+| そのほか            | [✓] | python |
 
 > ※ SQLite / SQLAlchemy を使用した場合は後半の加点欄も記入
 
@@ -131,10 +131,14 @@ def delete_todo(id: int):
 
 | 操作         | 貼付欄 |
 | ---------- | --- |
-| POST（新規追加） |  ![alt text](image-4.png)   |
-| GET（一覧取得）  |  ![alt text](image-3.png)   |
-| PUT（更新）    |   ![alt text](image-5.png)  |
-| DELETE（削除） |   ![alt text](image-6.png)  |
+| POST（新規追加） |  <img width="1888" height="933" alt="image-4" src="https://github.com/user-attachments/assets/5f75d6a1-8614-4e52-8a9c-87b435864e98" />
+   |
+| GET（一覧取得）  |  <img width="1845" height="935" alt="image-3" src="https://github.com/user-attachments/assets/c5c0b602-24af-4ac9-9ea5-7dc82ff5f303" />
+  |
+| PUT（更新）    |   <img width="1851" height="938" alt="image-5" src="https://github.com/user-attachments/assets/8eed7b9e-6f36-417e-a6e8-536ff2c6d60f" />
+  |
+| DELETE（削除） |   <img width="1919" height="936" alt="image-6" src="https://github.com/user-attachments/assets/1ec7a5bc-980e-4559-937a-cfcb4b98fbd6" />
+  |
 
 
 ---
@@ -143,7 +147,8 @@ def delete_todo(id: int):
 
 | 画面キャプチャ       | 貼付欄 |
 | ------------- | --- |
-| 実行画面          |   ![alt text](image-7.png)  |
+| 実行画面          |   <img width="1917" height="937" alt="image-7" src="https://github.com/user-attachments/assets/f70da056-ba5d-4a30-abbd-74de7d38e06b" />
+  |
 | 操作例（追加・更新・削除） |     |
 
 ---
@@ -154,7 +159,8 @@ def delete_todo(id: int):
 
 | ログ例（貼付欄） |
 | -------- |
-|    ![alt text](image-8.png)      |
+|    <img width="1918" height="936" alt="image-8" src="https://github.com/user-attachments/assets/50054d43-4250-4e3c-8450-78c1838c6350" />
+      |
 
 ---
 
@@ -199,4 +205,5 @@ def delete_todo(id: int):
 * [ ] Streamlit UI の画像を貼った
 * [ ] 学習したことを 100 字以上書いた
 * [ ] SQLite / SQLAlchemy の加点欄（使った場合のみ）
+
 
